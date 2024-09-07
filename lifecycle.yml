@@ -1,0 +1,25 @@
+define:
+  name: Define
+  description: This stage is where you define the business requirements for the API.
+  rules:
+    - rule-one
+design:
+  name: Design
+  description: This stage is where you design the schema and OpenAPI for the API.
+  rules:
+    - rule-one
+develop:
+  name: Develop
+  description: This stage is where you develop the code and database for the API.
+  rules:
+    - rule-one   
+staging:
+  name: Stage
+  description: This stage is where you deploy the code for the API to staging.
+  rules:
+    - rule-one     
+production:
+  name: Production
+  description: This stage is where you deploy the code for the API to production.
+  rules:
+    - rule-one        
