@@ -1,25 +1,101 @@
 define:
   name: Define
   description: This stage is where you define the business requirements for the API.
-  rules:
-    - rule-one
+  image: /images/define.png
+  policies:
+    - github-organization
+    - github-repository
+    - postman-workspace 
+    - teams
+    - standards   
+    - use-cases
+    - contract-metadata
+    - api-metadata
+    - road-map
+    - change-log 
+    - questions   
+    - governance
+  guidance: lifecycle/define
 design:
   name: Design
   description: This stage is where you design the schema and OpenAPI for the API.
-  rules:
-    - rule-one
+  image: /images/design.png
+  policies:
+    - openapi
+    - openapi-components 
+    - openapi-path-names
+    - openapi-operation-identifiers
+    - openapi-operation-summary
+    - openapi-operation-description
+    - openapi-operation-request-bodies
+    - openapi-operation-request-bodies-media-types
+    - openapi-operation-request-bodies-schema
+    - openapi-operation-parameters
+    - openapi-operation-parameter-in
+    - openapi-operation-parameter-names
+    - openapi-operation-parameter-descriptions
+    - openapi-operation-parameter-types
+    - openapi-operation-parameter-schema
+    - openapi-operation-parameter-enum
+    - openapi-operation-tags
+    - openapi-operation-security
+    - openapi-operation-response-2xx
+    - openapi-operation-response-2xx-media-types
+    - openapi-operation-response-2xx-schema
+    - openapi-operation-response-2xx-examples
+    - openapi-operation-response-4xx
+    - openapi-operation-response-4xx-media-types
+    - openapi-operation-response-4xx-schema
+    - openapi-operation-response-4xx-examples
+    - openapi-operation-response-5xx
+    - openapi-operation-response-5xx-media-types
+    - openapi-operation-response-5xx-schema
+    - openapi-operation-response-5xx-examples
+    - openapi-schema-type
+    - openapi-schema-names
+    - openapi-schema-descriptions
+    - openapi-schema-property-names
+    - openapi-schema-property-descriptions
+    - openapi-schema-property-types
+    - openapi-schema-property-enums
+    - openapi-schema-property-required
+    - openapi-schema-property-shapes
+    - postman-collection
+    - documentation   
+  guidance: lifecycle/design    
 develop:
   name: Develop
   description: This stage is where you develop the code and database for the API.
-  rules:
-    - rule-one   
+  image: /images/develop.png
+  policies:
+    - openapi-security  
+    - source-of-truth-actions
+    - base-url
+    - sdks
+  guidance: lifecycle/develop
 staging:
   name: Stage
   description: This stage is where you deploy the code for the API to staging.
-  rules:
-    - rule-one     
+  image: /images/staging.png
+  policies:
+    - human-url
+    - portals
+    - getting-started
+    - plans    
+    - status
+    - performance 
+  guidance: lifecycle/staging    
 production:
   name: Production
   description: This stage is where you deploy the code for the API to production.
-  rules:
-    - rule-one        
+  image: /images/production.png
+  policies:
+    - support 
+    - feedback 
+    - blogs
+    - blog-feeds
+    - videos
+    - terms-of-service
+    - privacy-policy 
+    - licensing      
+  guidance: lifecycle/production      
