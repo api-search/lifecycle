@@ -74,7 +74,7 @@ develop:
     - sdks
   guidance: lifecycle/develop
 staging:
-  name: Stage
+  name: Staging
   description: This stage is where you deploy the code for the API to staging.
   image: /images/staging.png
   policies:
