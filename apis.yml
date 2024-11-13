@@ -1,0 +1,30 @@
+---
+aid: api-evangelist-lifecycle
+specificationVersion: '0.19'
+
+type: Index
+
+name: APIs.io Lifecycle
+description: This is the API contract for the APIs.io lifecycle, inventorying all of the lifecycle used across the platform.
+
+image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+
+tags:
+
+  - Lifecycle
+
+created: '2024-11-11'
+modified: '2024-11-11'  
+
+url: https://github.com/api-search/lifecycle/blob/main/apis.yml
+
+common:
+
+  - type: Lifecycle
+    url: https://github.com/api-search/lifecycle/blob/main/lifecycle.yml
+                       
+maintainers:
+
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    X-github: kinlane
